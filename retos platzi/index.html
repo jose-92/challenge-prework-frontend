@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabajos.css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        html{
+            margin: 0 auto;
+         }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <section class="container">
+         <div class="item ">
+              <div class="item-primero"></div>
+         </div>
+
+        <div class="item"> </div>
+        <div class="item">
+              <div class="item-tercero"></div>
+        </div>
+        <div class="item">
+             <div class="item-cuarto"></div>
+        </div>
+        <div class="item text">
+            <h1>Platzi Game</h1>
+        </div>
+        <div class="item">
+            <div class="item-sexto"></div>
+        </div>
+    </section>  
+    <section class="jugadores">
+         <div class="jugador1">
+               <div><h3>Player 1</h3></div>
+                  <div class="jugador1-control">
+                      <div class="porcentaje"> 50%</div>
+                      <div class="progress">
+                          <div class="barra"></div>
+                     </div>
+                     <button id="jugardor1" class="boton" onclick="empezarJuego()">play</button>
+                 </div>
+                  <div class="jugador">
+                     <figure class="figuraJugador1">
+                         <img src="./imagen/cohete.jpg" alt="">
+                    </figure>
+                 </div>
+         </div>
+         <div class="jugador1 space">
+                  <div><h3>Player 2</h3></div>
+                    <div class="jugador1-control">
+                        <div class="porcentaje2"> 80%</div>        
+                        <div class="progress">
+                             <div class="barra2"></div>
+                        </div>                                              
+                        <button id="jugardor2"class="boton">play</button>
+                    </div>
+                 <div class="jugador">
+                      <figure class="figuraJugador1">
+                          <img src="./imagen/pistolas2.jpg" height="145" alt="">
+                      </figure>
+                 </div>
+         </div>
+        
+    </section>
+<!-- -------------------------------------FOOTER-----------------------------------------------FOOTER------------- -->
+    <footer class=" footer">
+          <div> 
+              <h5>@ jose-92</h5>
+          </div>
+              <div class="img-footer">
+                   <figure class="redes">
+                        <a href="https://www.facebook.com/" target="-blank">
+                           <img src="./icons8-facebook-50.png" width="40" alt="">
+                        </a>
+                   </figure>
+                   <figure class="redes">
+                       <a href="https://www.instagram.com/?hl=es-la" target="-blank">
+                          <img src="./icons8-instagram-50.png" width="40" alt="">
+                       </a>
+                   </figure>
+                   <figure class="redes">
+                       <a href="https://www.youtube.com/watch?v=SDv2vOIFIj8&t=203s" target="-blank">
+                          <img src="./icons8-twitter-50.png" width="40" alt="">
+                       </a>
+                  </figure>
+             </div>
+    </footer>
+    <script>
+          const jugador1 = document.getElementById('jugador1')
+          const jugador2 = document.getElementById('jugador2')
+
+          function empezarJuego (){
+              alert('Apenas estoy aprendiendo JS');
+          }
+
+    </script>
+</body>
+</html>
